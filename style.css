@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(red-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    padding: 10px;
+}
+#Links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+nav> img{
+    height: 100%;
+    border-radius: 20px;
+    margin: 2px;
+}
+div> a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+div>a:hover{
+    color: white;
+    transition: 1s;
+    border-bottom: black 1px solid;
+}
+#home{
+    height: 20px;
+    margin-right: 5px;
+}
+#insta{  
+    height: 20px;
+    margin-right: 5px;
+}
+#twitt{
+    height: 20px;
+    margin-right: 5px;
+}
+#redd{
+    height: 20px;
+    margin-right: 5px;
+}
+.first{
+    color: white;
+    font-size:30px ;
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.first::first-letter{
+    font-size: 50px;
+    color: orangered;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+#Text{
+    display: inline-block;
+    width: 40%;
+    padding: 30px;
+    color: white;
+}
+#Text > h1{
+    display: block;
+}
+#myprofile{
+    display: inline-block;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+}
+#myprofile > img{
+    height: 100%;
+    box-shadow: 7px 7px 15px gray;
+    border-radius: 20%;
+}
+#wev{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 5%;
+    margin-left: 10px;
+    display: block;
+    width: 85px;
+}
+wev:hover{
+    cursor:pointer;
+}    
